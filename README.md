@@ -1,5 +1,5 @@
 # nrf_to_nrf
- NRF52840 to NRF24L01 communication library for Arduino
+ NRF52 to NRF24L01 communication library for Arduino
  
  Notes:
  1. There is only a single layer buffer instead of a 3-layer FIFO like the NRF24L01
@@ -11,6 +11,6 @@
      
 The higher layer libs like RF24Network have been updated to version 2.0 to accommodate this library.
 
-The examples work for communication between NRF52840 and NRF24L01 out of the box.
+The examples work for communication between NRF52840, NRF52832 and NRF24L01 out of the box.
 
 Please log an issue for problems with any of the provided examples.
